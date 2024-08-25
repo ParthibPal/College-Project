@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/.github.io/College-Project/static/css/main.6d447466.css",
+    "main.js": "/.github.io/College-Project/static/js/main.3906a053.js",
+    "static/js/453.4152ba4a.chunk.js": "/.github.io/College-Project/static/js/453.4152ba4a.chunk.js",
+    "index.html": "/.github.io/College-Project/index.html",
+    "main.6d447466.css.map": "/.github.io/College-Project/static/css/main.6d447466.css.map",
+    "main.3906a053.js.map": "/.github.io/College-Project/static/js/main.3906a053.js.map",
+    "453.4152ba4a.chunk.js.map": "/.github.io/College-Project/static/js/453.4152ba4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d447466.css",
+    "static/js/main.3906a053.js"
+  ]
+}
