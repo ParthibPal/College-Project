@@ -6,7 +6,7 @@ const FNav = () => {
     return(
         <>
         <div className='navbar'>
-            <img onClick={() => navigate("/")} src='/images/logo.png' alt='' className='logo' title='Door Step'/>
+            <img onClick={() => navigate("/")} src={`${process.env.PUBLIC_URL}/images/logo.png`} alt='' className='logo' title='Door Step'/>
             <ul className='nav-items'>
                 <li onClick={() => navigate("/")}>Home</li>
                 <li onClick={() => navigate("/services")}>Services</li>
@@ -15,7 +15,7 @@ const FNav = () => {
             </ul>
             <div className='search-box'>
                 <input type='text' placeholder='Search'/>
-                <img src='/images/search-b.png' alt='search' className='search-icon'/>
+                <img src={`${process.env.PUBLIC_URL}/images/search-b.png`} alt='search' className='search-icon'/>
             </div>
             <button class="button-81">Sign Up</button>
         </div>
