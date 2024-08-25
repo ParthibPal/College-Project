@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Nav from './components/Nav';
 import './App.css';
+import LandingPage from './pages/LandingPage';
+import SellerPage from './pages/SellerPage';
+import ServicesPage from './pages/ServicesPage';
+// Dummy components for routes
+const Home = () => <div style={{ paddingTop: '80px' }}>{<LandingPage/>}</div>;
+const Services= () => <div style={{ paddingTop: '80px' }}>{<ServicesPage />}</div>;
+const Seller = () => <div style={{ paddingTop: '80px' }}>{<SellerPage/>}</div>;
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Nav /> 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/sellers" element={<Seller />} />
+      </Routes>
+    </Router>
+    
   );
 }
 
