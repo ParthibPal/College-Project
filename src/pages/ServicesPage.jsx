@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from "../components/Card";
-import '../App.css';
+import "../css/ServicesPage.css";
 const ServicesPage = (props) => {
   return (
     <div className="services-page">
@@ -40,9 +40,6 @@ const ServicesPage = (props) => {
         <Card imageSrc={`${process.env.PUBLIC_URL}/images/Yoga Classes.jpg`} name = "Yoga Classes" desc = "Practice yoga and improve your physical and mental well-being."/>
 
       </section>
-      <footer name="footer">
-        <p>&copy; 2024 Local Services Marketplace. All rights reserved.</p>
-      </footer>
     </div>
   );
 }

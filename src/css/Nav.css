@@ -31,7 +31,7 @@
     color: 	white;
 }
 
-ul{
+.navbar ul{
     flex: 1;
     list-style: none;
     padding-left: 4.5%;
@@ -39,7 +39,7 @@ ul{
     
 }
 
-ul li{
+.nav-items ul li{
     display: inline-block;
     margin: 1% ;
     font-size: 130%;
@@ -49,14 +49,10 @@ ul li{
     transition: all 0.3s ease;
 }
 
-ul li:hover{
-    /* position: fixed; */
+.nav-items li:hover{
     color: 	#00FF7F;
-    transition: 0.8s;
-    border-radius: 10px;
-    outline: 3px solid white;
-    padding: 2px;
-    
+    transform: translateY(-5px); 
+    cursor: pointer;
 }
 .search-box input{
     padding: 1%;

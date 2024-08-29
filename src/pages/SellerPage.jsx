@@ -1,6 +1,6 @@
 // SellerPage.js
 import React from 'react';
-import '../App.css';
+import '../css/Seller.css';
 
 const SellerPage = () => {
   return (
