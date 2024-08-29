@@ -17,7 +17,7 @@ const App = () => {
     <Router>
       <Nav /> 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="https://parthibpal.github.io/College-Project/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/sellers" element={<Seller />} />
       </Routes>
